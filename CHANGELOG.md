@@ -1,5 +1,10 @@
 <!--next-version-placeholder-->
 
+## v0.0.2 (2021-04-05)
+### Performance
+* **conf_file:** Добавил кавычки ([`8e2decf`](https://github.com/EvgeniyBurdin/sem_release/commit/8e2decf24d962e99e5bcd604a734d84559f17811))
+* **pencil:** Добавил кавычки ([`a81b41a`](https://github.com/EvgeniyBurdin/sem_release/commit/a81b41a5870765bdff1560377c7571f2ee872f7f))
+
 ## v0.0.1 (2021-04-05)
 ### Performance
 * **pencil:** Изменил имя переменной ([`4233d50`](https://github.com/EvgeniyBurdin/sem_release/commit/4233d507309b2af6693aa2ecac3fac310cae6192))
