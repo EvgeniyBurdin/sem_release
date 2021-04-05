@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.3.0 (2021-04-05)
+### Feature
+* **работает!:** Вроде все заработало! ([`9aa6463`](https://github.com/EvgeniyBurdin/sem_release/commit/9aa646308be0c799a6dad4624313cce5895540d4))
+
 ## v0.2.3 (2021-04-05)
 ### Fix
 * **new:** 123 ([`00cca13`](https://github.com/EvgeniyBurdin/sem_release/commit/00cca13a973338245d550a4f3d7c3834a510b748))
