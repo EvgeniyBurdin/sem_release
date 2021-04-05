@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.1.0 (2021-04-05)
+### Feature
+* **conf_file:** Убрал публикацию в pypi ([`9b8cae0`](https://github.com/EvgeniyBurdin/sem_release/commit/9b8cae0c39d4e7493b0afb8ee59c758e64348260))
+
 ## v0.0.2 (2021-04-05)
 ### Performance
 * **conf_file:** Добавил кавычки ([`8e2decf`](https://github.com/EvgeniyBurdin/sem_release/commit/8e2decf24d962e99e5bcd604a734d84559f17811))
