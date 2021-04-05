@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.2.2 (2021-04-05)
+### Performance
+* **conf_file:** Toooooooooooooooooo ([`72a2425`](https://github.com/EvgeniyBurdin/sem_release/commit/72a2425a6d718754c991ecb5e786d6f8e8fe24c7))
+
 ## v0.2.1 (2021-04-05)
 ### Performance
 * **conf_file:** Fffffffff fffffffff ([`861dc68`](https://github.com/EvgeniyBurdin/sem_release/commit/861dc685164c46a7d595a8bdb453557b70648cf2))
