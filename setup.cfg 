@@ -1,5 +1,7 @@
+[wheel]
+universal = 1
+
 [semantic_release]
-version_variable = sem_release/__init__.py:__version__
+version_variable = m.py:__version__
 branch = "main"
 upload_to_pypi = false
-upload_to_release = true
