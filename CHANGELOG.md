@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.1.2 (2021-04-05)
+### Fix
+* **ccc:** Переместил вверх ([`6ef3843`](https://github.com/EvgeniyBurdin/sem_release/commit/6ef3843e1cc75e7d297a7b9ed101b4999ec33cca))
+
 ## v0.1.1 (2021-04-05)
 ### Fix
 * **conf_file:** Добавил кавычки ([`edfd644`](https://github.com/EvgeniyBurdin/sem_release/commit/edfd644d7932cb39d6ae2cc11853ff65fcde75af))
