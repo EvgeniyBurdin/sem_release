@@ -1,3 +1,7 @@
+[metadata]
+name = sem_release
+
 [semantic_release]
 version_variable = m.py:__version__
 upload_to_pypi = false
+branch = main
