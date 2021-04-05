@@ -1,7 +1,4 @@
-[wheel]
-universal = 1
-
 [semantic_release]
 version_variable = m.py:__version__
-branch = "main"
+branch = "main0"
 upload_to_pypi = false
