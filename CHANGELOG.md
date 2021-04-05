@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.1.3 (2021-04-05)
+### Performance
+* **conf_file:** Ttt ([`7bd9347`](https://github.com/EvgeniyBurdin/sem_release/commit/7bd934731d219967758a3726ab689b11a3894830))
+
 ## v0.1.2 (2021-04-05)
 ### Fix
 * **ccc:** Переместил вверх ([`6ef3843`](https://github.com/EvgeniyBurdin/sem_release/commit/6ef3843e1cc75e7d297a7b9ed101b4999ec33cca))
