@@ -2,3 +2,4 @@
 version_variable = [
     'ver.py:__version__',
 ]
+branch = main
