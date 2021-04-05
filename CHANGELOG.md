@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.2.3 (2021-04-05)
+### Fix
+* **new:** 123 ([`00cca13`](https://github.com/EvgeniyBurdin/sem_release/commit/00cca13a973338245d550a4f3d7c3834a510b748))
+
 ## v0.2.2 (2021-04-05)
 ### Performance
 * **conf_file:** Toooooooooooooooooo ([`72a2425`](https://github.com/EvgeniyBurdin/sem_release/commit/72a2425a6d718754c991ecb5e786d6f8e8fe24c7))
