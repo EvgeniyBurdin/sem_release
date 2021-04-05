@@ -1,4 +1,5 @@
 [semantic_release]
-version_variable = ["ver.py:__version__"]
+version_variable = ver.py:__version__
 upload_to_pypi = false
-branch = "main"
+branch = main
+hvcs = github
