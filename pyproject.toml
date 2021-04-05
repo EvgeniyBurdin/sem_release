@@ -1,0 +1,5 @@
+[tool.semantic_release]
+branch = 'main'
+version_variable = [
+    'ver.py:__version__',
+]
