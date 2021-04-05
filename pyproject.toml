@@ -1,6 +1,7 @@
 [tool.semantic_release]
-upload_to_pypi = 'false'
-branch = 'main'
+upload_to_pypi = false
+upload_to_release = false
+branch = "main"
 version_variable = [
-    'ver.py:__version__',
+    "ver.py:__version__",
 ]
