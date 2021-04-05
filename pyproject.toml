@@ -2,3 +2,5 @@
 version_variable = [
     'ver.py:__version__',
 ]
+branch = main
+changelog_file = CHANGELOG.md
