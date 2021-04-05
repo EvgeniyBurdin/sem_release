@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.1.1 (2021-04-05)
+### Fix
+* **conf_file:** Добавил кавычки ([`edfd644`](https://github.com/EvgeniyBurdin/sem_release/commit/edfd644d7932cb39d6ae2cc11853ff65fcde75af))
+
 ## v0.1.0 (2021-04-05)
 ### Feature
 * **conf_file:** Убрал публикацию в pypi ([`9b8cae0`](https://github.com/EvgeniyBurdin/sem_release/commit/9b8cae0c39d4e7493b0afb8ee59c758e64348260))
