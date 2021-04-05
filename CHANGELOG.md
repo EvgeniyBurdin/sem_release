@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.2.1 (2021-04-05)
+### Performance
+* **conf_file:** Fffffffff fffffffff ([`861dc68`](https://github.com/EvgeniyBurdin/sem_release/commit/861dc685164c46a7d595a8bdb453557b70648cf2))
+
 ## v0.2.0 (2021-04-05)
 ### Feature
 * **pencil:** Add 'graphiteWidth' option ([`21fc2c2`](https://github.com/EvgeniyBurdin/sem_release/commit/21fc2c2332f326d4a2e0693268f7b9b5e6d3c178))
