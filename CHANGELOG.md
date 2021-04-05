@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.2.0 (2021-04-05)
+### Feature
+* **pencil:** Add 'graphiteWidth' option ([`21fc2c2`](https://github.com/EvgeniyBurdin/sem_release/commit/21fc2c2332f326d4a2e0693268f7b9b5e6d3c178))
+
 ## v0.1.3 (2021-04-05)
 ### Performance
 * **conf_file:** Ttt ([`7bd9347`](https://github.com/EvgeniyBurdin/sem_release/commit/7bd934731d219967758a3726ab689b11a3894830))
