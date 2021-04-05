@@ -14,7 +14,11 @@ jobs:
       with:
         fetch-depth: 0
 
+    - name: LS
+      run: |
+        ls
+
     - name: Python Semantic Release
       uses: relekang/python-semantic-release@master
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.GH_TOKEN }}
