@@ -1,5 +1,15 @@
 <!--next-version-placeholder-->
 
+## v6.0.0 (2021-04-06)
+### Breaking
+* :boom: 4-я попытка релиза через эмоджи  ([`1b6c725`](https://github.com/EvgeniyBurdin/sem_release/commit/1b6c725a8283bb909428dbee6554f094f8260f52))
+
+### :boom:
+* :boom: 4-я попытка релиза через эмоджи  ([`1b6c725`](https://github.com/EvgeniyBurdin/sem_release/commit/1b6c725a8283bb909428dbee6554f094f8260f52))
+
+### Other
+* Merge pull request #12 from EvgeniyBurdin/add-some-feature ([`5672c5b`](https://github.com/EvgeniyBurdin/sem_release/commit/5672c5bca918c17fbe00ec777eecab4660ebe950))
+
 ## v5.0.2 (2021-04-06)
 ### Fix
 * Убрал то что так и не заработало ([`4a7cd48`](https://github.com/EvgeniyBurdin/sem_release/commit/4a7cd48de7264234923cff90b45bd12b86a52138))
