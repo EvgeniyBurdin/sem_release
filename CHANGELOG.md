@@ -1,5 +1,12 @@
 <!--next-version-placeholder-->
 
+## v2.2.0 (2021-04-06)
+### Feature
+* **interface:** Добавил восклицательный знак ([`453aa45`](https://github.com/EvgeniyBurdin/sem_release/commit/453aa4567b0fd56c954efc639c8edefcb3897545))
+
+### Fix
+* **интерфейс:** Изменил строку вывода ([`16b100b`](https://github.com/EvgeniyBurdin/sem_release/commit/16b100b3b1004a9b42f8c20591f3667dc267cd52))
+
 ## v2.1.1 (2021-04-06)
 
 
