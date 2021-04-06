@@ -1,5 +1,8 @@
 <!--next-version-placeholder-->
 
+## v5.0.0 (2021-04-06)
+
+
 ## v4.1.1 (2021-04-06)
 ### Fix
 * **out:** Del space line ([`969ce19`](https://github.com/EvgeniyBurdin/sem_release/commit/969ce197d59241b4872f612c53500630f208c744))
