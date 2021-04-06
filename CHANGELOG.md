@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v1.2.1 (2021-04-06)
+### Fix
+* **интерфейс:** Убрал символ ([`4e0ec5f`](https://github.com/EvgeniyBurdin/sem_release/commit/4e0ec5f9a7e861e854fc625383038648836c0f78))
+
 ## v1.2.0 (2021-04-06)
 ### Feature
 * **интерфейс:** Улучшил вывод ([`9c3601d`](https://github.com/EvgeniyBurdin/sem_release/commit/9c3601d1e13bcfedbcee7dee59adf0c85e65bb3e))
