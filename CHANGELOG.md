@@ -1,5 +1,12 @@
 <!--next-version-placeholder-->
 
+## v8.0.0 (2021-04-06)
+### Fix
+* Тест версии path ([`1df9942`](https://github.com/EvgeniyBurdin/sem_release/commit/1df9942811390b86d82f8eec4f7ffd7fb1bf6542))
+
+### Breaking
+* новый релиз  ([`1df9942`](https://github.com/EvgeniyBurdin/sem_release/commit/1df9942811390b86d82f8eec4f7ffd7fb1bf6542))
+
 ## v7.0.2 (2021-04-06)
 ### Fix
 * Тест коммита fix (angular) ([`46a5fdf`](https://github.com/EvgeniyBurdin/sem_release/commit/46a5fdfb8071285a3b50f6b71891736092a0b0e9))
