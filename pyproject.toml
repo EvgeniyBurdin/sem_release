@@ -5,5 +5,5 @@ branch = "main"
 version_variable = [
     "ver.py:__version__",
 ]
-major_emoji = ":boom:"
-minor_emoji = ":egg:"
+major_emoji=:boom:
+minor_emoji=:egg:
