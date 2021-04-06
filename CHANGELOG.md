@@ -1,5 +1,12 @@
 <!--next-version-placeholder-->
 
+## v4.1.1 (2021-04-06)
+### Fix
+* **out:** Del space line ([`969ce19`](https://github.com/EvgeniyBurdin/sem_release/commit/969ce197d59241b4872f612c53500630f208c744))
+
+### Performance
+* **out:** Del one message ([`0c86e44`](https://github.com/EvgeniyBurdin/sem_release/commit/0c86e44536f3069b6ce6d30f9fabd02f95b44583))
+
 ## v4.1.0 (2021-04-06)
 ### Feature
 * **output:** Change message ([`f2b194b`](https://github.com/EvgeniyBurdin/sem_release/commit/f2b194b4f0b48b9aec2df0ebe559437fc3cf19e5))
