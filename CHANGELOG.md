@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v5.0.1 (2021-04-06)
+### Fix
+* **out:** Add message ([`f562ca9`](https://github.com/EvgeniyBurdin/sem_release/commit/f562ca9c013f79a1ab431a6f3acece667feb7242))
+
 ## v5.0.0 (2021-04-06)
 
 
