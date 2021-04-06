@@ -1,5 +1,13 @@
 <!--next-version-placeholder-->
 
+## v7.0.1 (2021-04-06)
+### :robot:
+* :robot: Тест версии path  ([`611a039`](https://github.com/EvgeniyBurdin/sem_release/commit/611a0397f67cf0ad8984369e44b0fb7a00466140))
+
+### Other
+* Merge pull request #16 from EvgeniyBurdin/add-some-feature ([`6cdd7ad`](https://github.com/EvgeniyBurdin/sem_release/commit/6cdd7ade544e3d21abac038e7f0643d36258d051))
+* Это простой коммит, без меток, чтобы посмотреть куда он попадет  ([`887e3d1`](https://github.com/EvgeniyBurdin/sem_release/commit/887e3d147b1f62f608539ef8d53305cf5eab7e3a))
+
 ## v7.0.0 (2021-04-06)
 ### Breaking
 * :boom: Тест коммита major версии #2  ([`395087b`](https://github.com/EvgeniyBurdin/sem_release/commit/395087b7c866fe5d802ffda3672ed6887fec0319))
