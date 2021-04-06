@@ -1,5 +1,12 @@
 <!--next-version-placeholder-->
 
+## v3.1.0 (2021-04-06)
+### Feature
+* **output:** Change message ([`f2b194b`](https://github.com/EvgeniyBurdin/sem_release/commit/f2b194b4f0b48b9aec2df0ebe559437fc3cf19e5))
+
+### Fix
+* **output:** Change end of message ([`e7530d3`](https://github.com/EvgeniyBurdin/sem_release/commit/e7530d3e1bac9358f05b10756eeb0a1c6f8526df))
+
 ## v3.0.0 (2021-04-06)
 ### Feature
 * **interface:** Добавил восклицательный знак ([`453aa45`](https://github.com/EvgeniyBurdin/sem_release/commit/453aa4567b0fd56c954efc639c8edefcb3897545))
