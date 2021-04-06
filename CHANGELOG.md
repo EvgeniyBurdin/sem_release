@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v5.0.2 (2021-04-06)
+### Fix
+* Убрал то что так и не заработало ([`4a7cd48`](https://github.com/EvgeniyBurdin/sem_release/commit/4a7cd48de7264234923cff90b45bd12b86a52138))
+
 ## v5.0.1 (2021-04-06)
 ### Fix
 * **out:** Add message ([`f562ca9`](https://github.com/EvgeniyBurdin/sem_release/commit/f562ca9c013f79a1ab431a6f3acece667feb7242))
