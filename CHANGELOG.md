@@ -1,5 +1,26 @@
 <!--next-version-placeholder-->
 
+## v7.0.0 (2021-04-06)
+### Breaking
+* :boom: Тест коммита major версии #2  ([`395087b`](https://github.com/EvgeniyBurdin/sem_release/commit/395087b7c866fe5d802ffda3672ed6887fec0319))
+
+### :boom:
+* :boom: Тест коммита major версии #2  ([`395087b`](https://github.com/EvgeniyBurdin/sem_release/commit/395087b7c866fe5d802ffda3672ed6887fec0319))
+
+### :egg:
+* :egg: Тест коммита minor версии  ([`56b41aa`](https://github.com/EvgeniyBurdin/sem_release/commit/56b41aa3437d83379aae161466ea17d704c8edfa))
+
+### :robot:
+* :robot: Тест коммита path версии  ([`59fadd6`](https://github.com/EvgeniyBurdin/sem_release/commit/59fadd69c2249a425f9c5c826d6450d60ba88159))
+
+### Other
+* Merge pull request #15 from EvgeniyBurdin/add-some-feature ([`d1beff9`](https://github.com/EvgeniyBurdin/sem_release/commit/d1beff9cd62ed88ce76e188b17a5c6e6550e889b))
+* :boob: Тест коммита major версии  ([`665e806`](https://github.com/EvgeniyBurdin/sem_release/commit/665e806df6a1db16c972b528c72b7c98dfa8cdb9))
+* Merge pull request #14 from EvgeniyBurdin/add-some-feature ([`2b15e24`](https://github.com/EvgeniyBurdin/sem_release/commit/2b15e24ac6a33402759470a05e946fb9d2373650))
+* Fix: коммит в старом стиле 2  ([`7e00f03`](https://github.com/EvgeniyBurdin/sem_release/commit/7e00f031206be8c167a6e21c0f0aa363286b1c12))
+* Merge pull request #13 from EvgeniyBurdin/add-some-feature ([`56b0cf8`](https://github.com/EvgeniyBurdin/sem_release/commit/56b0cf89ec0c8b76f4be75488441d24a7735a95c))
+* Fix: коммит в старом стили  ([`60083cf`](https://github.com/EvgeniyBurdin/sem_release/commit/60083cffdc560af316bdf6e49c5d0601cabc7e47))
+
 ## v6.0.0 (2021-04-06)
 ### Breaking
 * :boom: 4-я попытка релиза через эмоджи  ([`1b6c725`](https://github.com/EvgeniyBurdin/sem_release/commit/1b6c725a8283bb909428dbee6554f094f8260f52))
