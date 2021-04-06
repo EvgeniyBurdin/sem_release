@@ -1,5 +1,8 @@
 <!--next-version-placeholder-->
 
+## v2.0.0 (2021-04-06)
+
+
 ## v1.2.2 (2021-04-06)
 ### Performance
 * **краткость:** Сократил вывод ([`0a66c99`](https://github.com/EvgeniyBurdin/sem_release/commit/0a66c99d2fc33ddc21904aded9fb26fc7772134e))
