@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.5.1 (2021-04-06)
+### Performance
+* **документация:** Добавил ссылки ([`a30566f`](https://github.com/EvgeniyBurdin/sem_release/commit/a30566fa7e0fdefd57cda473e42fcb575fefc09a))
+
 ## v0.5.0 (2021-04-06)
 ### Feature
 * **rem:** Примечание ([`a573ae2`](https://github.com/EvgeniyBurdin/sem_release/commit/a573ae267a68f2c831e74fedeb2d7188c326f7cd))
