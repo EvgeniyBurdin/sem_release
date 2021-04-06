@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v1.2.0 (2021-04-06)
+### Feature
+* **интерфейс:** Улучшил вывод ([`9c3601d`](https://github.com/EvgeniyBurdin/sem_release/commit/9c3601d1e13bcfedbcee7dee59adf0c85e65bb3e))
+
 ## v1.1.1 (2021-04-06)
 ### Fix
 * **интерфейс:** Изменил вывод ([`b3f8e85`](https://github.com/EvgeniyBurdin/sem_release/commit/b3f8e85e7215f2d430d469174d1d0df8d0a7bace))
