@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.5.0 (2021-04-06)
+### Feature
+* **rem:** Примечание ([`a573ae2`](https://github.com/EvgeniyBurdin/sem_release/commit/a573ae267a68f2c831e74fedeb2d7188c326f7cd))
+
 ## v0.4.0 (2021-04-06)
 ### Feature
 * **интерфейс:** Изменил текст выводимого сообщения ([`90605ac`](https://github.com/EvgeniyBurdin/sem_release/commit/90605ac17d32276c27bc744392c5287304d47f4c))
