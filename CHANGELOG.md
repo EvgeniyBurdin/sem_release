@@ -1,5 +1,16 @@
 <!--next-version-placeholder-->
 
+## v3.0.0 (2021-04-06)
+### Feature
+* **interface:** Добавил восклицательный знак ([`453aa45`](https://github.com/EvgeniyBurdin/sem_release/commit/453aa4567b0fd56c954efc639c8edefcb3897545))
+
+### Fix
+* **интерфейс:** Изменил строку вывода ([`16b100b`](https://github.com/EvgeniyBurdin/sem_release/commit/16b100b3b1004a9b42f8c20591f3667dc267cd52))
+
+### Performance
+* **iii:** Rus ([`127c159`](https://github.com/EvgeniyBurdin/sem_release/commit/127c159de6bb4f6c8e7c2d89634841dbd3f8a1d8))
+* **интерфейс:** Сделал три восклицательных знака ([`bd05aed`](https://github.com/EvgeniyBurdin/sem_release/commit/bd05aed37a9f10d928fd844b392de5192d3fbd78))
+
 ## v2.1.1 (2021-04-06)
 
 
