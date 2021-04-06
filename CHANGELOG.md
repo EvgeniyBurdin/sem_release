@@ -1,5 +1,12 @@
 <!--next-version-placeholder-->
 
+## v7.0.2 (2021-04-06)
+### Fix
+* Тест коммита fix (angular) ([`46a5fdf`](https://github.com/EvgeniyBurdin/sem_release/commit/46a5fdfb8071285a3b50f6b71891736092a0b0e9))
+
+### Documentation
+* Тест коммита docs (angular) ([`e217161`](https://github.com/EvgeniyBurdin/sem_release/commit/e21716135f5137024e65bdee1a0bd7451d0e48c7))
+
 ## v7.0.1 (2021-04-06)
 ### :robot:
 * :robot: Тест версии path  ([`611a039`](https://github.com/EvgeniyBurdin/sem_release/commit/611a0397f67cf0ad8984369e44b0fb7a00466140))
