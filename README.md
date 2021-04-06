@@ -2,6 +2,11 @@
 
 Пример работы с python-semantic-release
 
+## Как это работает
+
+Ссылка на библиотеку для JS (библиотека на python это ее клон)
+<https://github.com/semantic-release/semantic-release#how-does-it-work>
+
 ## Установка
 
 ```bash
@@ -54,6 +59,10 @@ pip install python-semantic-release
 41. zipp-3.4.1
 ```
 
-## Прочее
+## Настройка релизов
 
--
+<https://python-semantic-release.readthedocs.io/en/latest/#releasing-on-github-gitlab>
+
+## Правила написания коммитов
+
+<https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-format>
