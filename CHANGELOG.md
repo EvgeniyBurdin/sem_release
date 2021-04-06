@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v1.2.2 (2021-04-06)
+### Performance
+* **краткость:** Сократил вывод ([`0a66c99`](https://github.com/EvgeniyBurdin/sem_release/commit/0a66c99d2fc33ddc21904aded9fb26fc7772134e))
+
 ## v1.2.1 (2021-04-06)
 ### Fix
 * **интерфейс:** Убрал символ ([`4e0ec5f`](https://github.com/EvgeniyBurdin/sem_release/commit/4e0ec5f9a7e861e854fc625383038648836c0f78))
