@@ -65,4 +65,5 @@ pip install python-semantic-release
 
 ## Правила написания коммитов
 
+
 <https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-format>
