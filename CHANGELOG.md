@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v1.1.1 (2021-04-06)
+### Fix
+* **интерфейс:** Изменил вывод ([`b3f8e85`](https://github.com/EvgeniyBurdin/sem_release/commit/b3f8e85e7215f2d430d469174d1d0df8d0a7bace))
+
 ## v1.1.0 (2021-04-06)
 ### Feature
 * **:boom::** Добавил про конфигурацию ([`99c9f33`](https://github.com/EvgeniyBurdin/sem_release/commit/99c9f33ba73f9661332feabf00a6e4ce6eb2ee91))
