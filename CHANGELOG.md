@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.6.0 (2021-04-06)
+### Feature
+* **:boom::** Добавил про конфигурацию ([`99c9f33`](https://github.com/EvgeniyBurdin/sem_release/commit/99c9f33ba73f9661332feabf00a6e4ce6eb2ee91))
+
 ## v0.5.1 (2021-04-06)
 ### Performance
 * **документация:** Добавил ссылки ([`a30566f`](https://github.com/EvgeniyBurdin/sem_release/commit/a30566fa7e0fdefd57cda473e42fcb575fefc09a))
