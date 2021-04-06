@@ -1,5 +1,12 @@
 <!--next-version-placeholder-->
 
+## v3.1.1 (2021-04-06)
+### Fix
+* **output:** Add new message ([`cee1ec0`](https://github.com/EvgeniyBurdin/sem_release/commit/cee1ec0bfe89253ccd7d75d555861ec68b787d57))
+
+### Performance
+* **output:** Del message ([`7d3eaf9`](https://github.com/EvgeniyBurdin/sem_release/commit/7d3eaf92494f60f7ba29b7b1247a29aff123e70e))
+
 ## v3.1.0 (2021-04-06)
 ### Feature
 * **output:** Change message ([`f2b194b`](https://github.com/EvgeniyBurdin/sem_release/commit/f2b194b4f0b48b9aec2df0ebe559437fc3cf19e5))
