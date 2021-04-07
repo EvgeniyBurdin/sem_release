@@ -87,7 +87,7 @@ changelog_file = "CHANGELOG.md"
 *Примечание: все настройки можно изменить в аргументах при запуске скрипта.*
 
 На других `CI`, возможно, потребуется изменение переменных среды:
-https://python-semantic-release.readthedocs.io/en/latest/envvars.html
+<https://python-semantic-release.readthedocs.io/en/latest/envvars.html>
 
 ### 3.2. Файл журнала изменений
 
@@ -139,10 +139,6 @@ jobs:
 
 <https://python-semantic-release.readthedocs.io/en/latest/#releasing-on-github-gitlab>
 
-### 4.2. Правила написания коммитов
-
-<https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-format>
-
-### 4.3. CI configurations
+### 4.2. CI configurations
 
 <https://github.com/semantic-release/semantic-release/blob/master/docs/recipes/README.md>
