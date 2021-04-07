@@ -22,7 +22,7 @@
 
 ### 2.1. Файл с настройками `pyproject.toml`
 
-Настройки для `python-semantic-release` можно указать в файле `setup.cfg` или в `pyproject.toml` в корне .
+Настройки для `python-semantic-release` можно указать в файле `setup.cfg` или в `pyproject.toml` которые должны быть расположены в корневой папке проекта.
 
 В этом примере используется `pyproject.toml`:
 
