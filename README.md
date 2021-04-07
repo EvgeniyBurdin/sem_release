@@ -1,6 +1,6 @@
 # sem_release
 
-Пример использования `python-semantic-release`
+Пример использования    [`python-semantic-release`](https://github.com/relekang/python-semantic-release)
 
 ## 1. Как это работает
 
@@ -80,6 +80,14 @@ hvcs = "github"
 # создаваемом коммите произойдут и изменения этого файла)
 changelog_file = "CHANGELOG.md"
 ```
+
+Другие настройки можно посмотреть здесь:
+<https://python-semantic-release.readthedocs.io/en/latest/configuration.html>
+
+*Примечание: все настройки можно изменить в аргументах при запуске скрипта.*
+
+На других `CI`, возможно, потребуется изменение переменных среды:
+https://python-semantic-release.readthedocs.io/en/latest/envvars.html
 
 ### 3.2. Файл журнала изменений
 
