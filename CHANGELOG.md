@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v8.0.3 (2021-04-07)
+### Fix
+* Дополнил документацию ([`ed35dac`](https://github.com/EvgeniyBurdin/sem_release/commit/ed35dac35c0547eb510c6fca6bbdcc32607faf1a))
+
 ## v8.0.2 (2021-04-07)
 ### Fix
 * Обновил документацию ([`b8dde61`](https://github.com/EvgeniyBurdin/sem_release/commit/b8dde6101d1aa9838aab12505e0b47ba637df2b5))
