@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v8.0.1 (2021-04-07)
+### Fix
+* **файлы:** Удалил лишний файл ([`446b50a`](https://github.com/EvgeniyBurdin/sem_release/commit/446b50a493b139c45c254eb74fab75b8ccbfe2e9))
+
 ## v8.0.0 (2021-04-06)
 ### Fix
 * Тест версии path ([`1df9942`](https://github.com/EvgeniyBurdin/sem_release/commit/1df9942811390b86d82f8eec4f7ffd7fb1bf6542))
