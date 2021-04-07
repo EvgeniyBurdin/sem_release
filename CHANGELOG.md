@@ -1,5 +1,10 @@
 <!--next-version-placeholder-->
 
+## v8.0.2 (2021-04-07)
+### Fix
+* Обновил документацию ([`b8dde61`](https://github.com/EvgeniyBurdin/sem_release/commit/b8dde6101d1aa9838aab12505e0b47ba637df2b5))
+* **settings:** Добавил настройку с именем журнала изменений (для информации) ([`376212b`](https://github.com/EvgeniyBurdin/sem_release/commit/376212b52186c0171a9b1969d23475559d318a7e))
+
 ## v8.0.1 (2021-04-07)
 ### Fix
 * **файлы:** Удалил лишний файл ([`446b50a`](https://github.com/EvgeniyBurdin/sem_release/commit/446b50a493b139c45c254eb74fab75b8ccbfe2e9))
