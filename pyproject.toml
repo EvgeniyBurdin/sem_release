@@ -6,3 +6,4 @@ version_variable = [
     "ver.py:__version__",
 ]
 hvcs = "github"
+changelog_file = "CHANGELOG.md"

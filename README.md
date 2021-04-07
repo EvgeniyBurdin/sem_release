@@ -1,72 +1,110 @@
 # sem_release
 
-Пример работы с python-semantic-release
+Пример использования `python-semantic-release`
 
-## Как это работает
+## 1. Как это работает
+
+Библиотека `python-semantic-release` позволяет автоматически устанавливать номер версии и вести журнал изменений.
+Если требуется публиковать пакет в `PyPi`, то данная библиотека может делать и это.
+
+Отслеживание необходимости изменения версии выполняется **на основании сообщений в коммитах** для указанной в настройках ветки. Таким образом, **сообщения в коммитах должны выполняться по определенным правилам**.
+По умолчанию, используются соглашения приведенные здесь:
+<https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-format>
+
+Порядок работы может быть, например, таким:
+
+1. Имеется ветка, в которой будет производится отслеживание изменения версии. В текущем репозитарии это `main`.
+2. Программист создает новую ветку от `main`, например, `fix-some-bag`, и работает в ней выполняя коммиты по принятым соглашениям.
+3. После завершения работы в `fix-some-bag` программист производит `Pull request` в исходную ветку `main`.
+4. `CI` репозитария запускает `python-semantic-release`, и если в коммитах из `Pull request` есть сообщения которые изменяют версию, то создается дополнительный коммит, который уже фактически изменяет версию и файл с изменениями.
+
+## 2. Настройка
+
+### 2.1. Файл с настройками `pyproject.toml`
+
+Настройки для `python-semantic-release` можно указать в файле `setup.cfg` или в `pyproject.toml` в корне .
+
+В этом примере используется `pyproject.toml`:
+
+```bash
+[tool.semantic_release]
+# Выгружать ли библиотеку на PyPi
+upload_to_pypi = false
+# Создавать ли папки с исходниками библиотеки в репозитории
+upload_to_release = false
+
+# Имя отслеживаемой ветки. 
+branch = "main"
+
+# Место (места) где физически объявлена переменная хранящая текущий номер
+# версии. `python-semantic-release` будет изменять эту переменную (то есть,
+# будет автоматически создаваться коммит, который меняет значение переменной)
+version_variable = [
+    "ver.py:__version__",
+]
+
+# Имя текущей системы хранения версий (может быть и, например, "gitlab")
+hvcs = "github"
+
+# Имя файла в котором будут фиксироваться изменения (в автоматически 
+# создаваемом коммите произойдут и изменения этого файла)
+changelog_file = "CHANGELOG.md"
+```
+
+### 2.2. Файл журнала изменений
+
+В текущем репозитории файл для фиксации изменений имеет имя `CHANGELOG.md`.
+
+В этом файле необходимо установить "маркер" в место, куда будут добавляться изменения:
+
+```bash
+<!--next-version-placeholder-->
+```
+
+### 2.3. Файл  `.github/workflows/release.yml`
+
+Этот файл содержит сценарий для `gitlab CI`.
+
+```bash
+name: Semantic Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Python Semantic Release
+      uses: relekang/python-semantic-release@master
+      with:
+        github_token: ${{ secrets.GH_TOKEN }}
+```
+
+В настройках репозитория необходимо создать **персональный токен доступа** с именем `GH_TOKEN` (`GL_TOKEN` если работаем в `gitlab`), и указать его в "секретах" у репозитария. Именно этот "секрет" указан в последней строке приведенного выше файла.
+
+**Внимание!** Для других `CI` потребуется другой файл.
+
+## 3. Дополнительная информация
 
 Ссылка на библиотеку для JS (библиотека на python это ее клон)
 <https://github.com/semantic-release/semantic-release#how-does-it-work>
 
-## Установка
-
-```bash
-pip install python-semantic-release
-```
-
-В комплекте установятся пакеты:
-
-```code
-01. Pygments-2.8.1 
-02. SecretStorage-3.3.1 
-03. bleach-3.3.0 
-04. certifi-2020.12.5 
-05. cffi-1.14.5 
-06. chardet-4.0.0 
-07. click-7.1.2 
-08. click-log-0.3.2 
-09. colorama-0.4.4 
-10. cryptography-3.4.7 
-11. docutils-0.16 
-12. dotty-dict-1.3.0 
-13. gitdb-4.0.7 
-14. gitpython-3.1.14 
-15. idna-2.10 
-16. importlib-metadata-3.10.0 
-17. invoke-1.5.0 
-18. jeepney-0.6.0 
-19. keyring-23.0.1 
-20. packaging-20.9 
-21. pkginfo-1.7.0 
-22. pycparser-2.20 
-23. pyparsing-2.4.7 
-24. python-gitlab-2.6.0 
-25. python-semantic-release-7.15.1   <<<--- Наш пакет
-26. readme-renderer-29.0 
-27. requests-2.25.1 
-28. requests-toolbelt-0.9.1 
-29. rfc3986-1.4.0 
-30. semver-2.13.0 
-31. setuptools-54.2.0 
-32. setuptools-scm-6.0.1 
-33. six-1.15.0 
-34. smmap-4.0.0 
-35. tomlkit-0.7.0 
-36. tqdm-4.59.0 
-37. twine-3.4.1 
-38. urllib3-1.26.4 
-39. webencodings-0.5.1 
-40. wheel-0.36.2 
-41. zipp-3.4.1
-```
-
-## Настройка релизов
+### 3.1. Настройка релизов
 
 <https://python-semantic-release.readthedocs.io/en/latest/#releasing-on-github-gitlab>
 
-## Правила написания коммитов
+### 3.2. Правила написания коммитов
 
 <https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-format>
 
-## CI configurations
+### 3.3. CI configurations
 
 <https://github.com/semantic-release/semantic-release/blob/master/docs/recipes/README.md>
